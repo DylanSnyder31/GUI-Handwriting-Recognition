@@ -1,2 +1,37 @@
-# GUI-Handwriting-Recognition
-This is a personal project that I made using Python and Tkinter. There is an area for the user to create their input, and the classifier will predict the correct letter or digit.
+# GUI Handwriting Recognition with Python
+
+In this project I attempt to make a Handwriting Classifier with Python and a Machine Learning Algorithm. This project incorporated a GUI that was made with Tkinter to allow the user to write thier own data points using the mouse cursor as a paintbrush/pencil. 
+
+## TO-DO
+
+There are a few things left desired out of this project. 
+
+1. Use a neural network or another algorithm to classify the data so execution time can be drastically reduced.
+2. Finish creating the data samples for the alphabet. (Currently finished with lower-case d)
+
+### Prerequisites
+
+•Numpy
+```
+pip install numpy
+```
+•PIL (Python Imaging Library)
+```
+pip install Pillow
+```
+•Tkinter
+```
+sudo apt-get install python3-tk
+```
+•ResizeImage 
+```
+pip install python-resize-image
+```
+
+## Authors
+
+* **Dylan Snyder**
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
