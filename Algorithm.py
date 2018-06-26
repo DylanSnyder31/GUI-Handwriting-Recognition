@@ -18,9 +18,9 @@ class KNN_algorithm():
                       training_labels,
                       input_data,
                       k):
-
+    
         distances_from_neighbors = []
-        for index in range(40):
+        for index in range(len(training_data)):
             #This iterates through all of the training_data
             algo = KNN_algorithm()
             length = 783
